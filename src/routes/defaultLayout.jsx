@@ -1,17 +1,14 @@
-
 import AppContent from "../Layout/AppContent";
-const Dashboard = () => {
+import Header from "../Layout/Header";
+const DefaultLayout = () => {
   return (
-    <div className="d-flex">
-      <Sidebar />
-      <div className="flex-grow-1 d-flex flex-column min-vh-100">
-        <Header />
-        <div className="container-fluid">
-          <AppContent />
-        </div>
+    <div>
+      <Header />
+      <div>
+        <AppContent />
       </div>
     </div>
   );
 };
 
-export default Dashboard;
+export default DefaultLayout;
