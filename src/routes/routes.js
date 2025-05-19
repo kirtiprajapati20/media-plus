@@ -4,12 +4,14 @@
 // import Scope from "./view/module/scope";
 // import DataSource from "./view/module/dataSource";
 
+import DataSource from "../pages/components/datasource/dataSource";
+
 const routes = [
   // { path: "/dashboard", name: "Dashboard", element: GrowData },
   // { path: "/genericmodule", name: "Generic Module", element: HelpPage },
   // { path: "/discovery", name: "Generic Module", element: Discovery },
   // { path: "/scope", name: "Generic Module", element: Scope },
-  // { path: "/datasource", name: "Generic Module", element: DataSource },
+  { path: "/datasource", name: "Generic Module", element: DataSource },
 ];
 
 export default routes;
