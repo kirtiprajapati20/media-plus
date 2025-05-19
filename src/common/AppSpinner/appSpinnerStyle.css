@@ -1,0 +1,20 @@
+#outline {
+  stroke-dasharray: 2.42776657104492px, 242.776657104492px;
+  stroke-dashoffset: 0;
+  animation: anim 1.6s linear infinite;
+}
+
+@keyframes anim {
+  12.5% {
+    stroke-dasharray: 34.03873299462888px, 242.776657104492px;
+    stroke-dashoffset: -26.705432281493116px;
+  }
+  43.75% {
+    stroke-dasharray: 84.97182998657222px, 242.776657104492px;
+    stroke-dashoffset: -84.97182998657222px;
+  }
+  100% {
+    stroke-dasharray: 2.42776657104492px, 242.776657104492px;
+    stroke-dashoffset: -240.3488905334471px;
+  }
+}
